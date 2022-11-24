@@ -1,5 +1,4 @@
 n = int(input("bạn cần nhập bao nhiêu phương trình"))
-tongS = 0
 tong = 0
 for i in range(1, n+1):
     print("phương trình thứ ", i ," bạn nhập là")
@@ -26,5 +25,4 @@ for i in range(1, n+1):
             print(" Phuong trinh vo nghiem")
         if delta > 0:
             print(" Phuong trinh co 2 nghiem")
-    tongS += tong
-print('KQ là', tongS)
+print('KQ là', tong)
